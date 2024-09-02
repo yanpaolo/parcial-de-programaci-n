@@ -66,8 +66,7 @@ public class Empleado extends Persona {
             return "No definido";
         }
     }
-
-    @Override
+    
     public String toString() {
         return super.toString() + " Empleado{" +
                 "nombreCargo='" + nombreCargo + '\'' +
